@@ -1,0 +1,77 @@
+num func first (str fb)
+{
+rc num fx;
+fx = strln (fb);
+comeback fx;
+}
+
+num func second (num sa,num sb)
+{
+rc num res;
+res = sa + sb;
+comeback res;
+}
+
+start
+{
+rc num onea;
+rc num twoa;
+rc num oneo;
+rc num twoo;
+rc num invrt;
+rc num resa;
+rc num reso;
+rc num resn;
+rc num resng;
+rc str onestr;
+rc str twostr;
+rc num resln;
+rc num resstn;
+rc num oneapp;
+rc num twoapp;
+rc num thapp;
+rc num frapp;
+rc num sys;
+rc num resf;
+onea = 15;
+twoa = 8;
+oneo = 15;
+twoo = 8;
+invrt = 10;
+oneapp = 70;
+twoapp = 71;
+resng = 0 - 4;
+read("NEGATIVE ELEMENT");
+read(resng);
+read("Result of AND");
+resa = onea A twoa;
+read(resa);
+read("Result of OR");
+reso = oneo O twoo;
+read(reso);
+read("Result of NOT");
+resn = N invrt;
+read(resn);
+onestr = "IIO-2019";
+read("RESULT STRLN(IIO-2019)");
+resln = first(onestr);
+read(resln);
+twostr = "5";
+read("Result of STRTON");
+resstn = strton (twostr);
+read(resstn);
+thapp = resstn + 22;
+read("RESULT strton plus 22");
+read(thapp);
+read("Result of CYCLE");
+cycle(7)
+{
+frapp = frapp + 6;
+};
+read(frapp);
+read("RESULT FUNC SECOND");
+resf = second(oneapp , twoapp);
+read(resf);
+sys = 0112;
+read("Program end.IIO-2019");
+}

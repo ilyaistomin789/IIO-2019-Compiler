@@ -1,0 +1,74 @@
+num func first (str fb)
+{
+rc num fx;
+fx = strln (fb);
+comeback fx;
+}
+num func second (num sa,num sb)
+{
+rc num res;
+res = sa + sb;
+comeback res;
+}
+
+start
+{
+rc num qa;
+rc num wb;
+rc num qb;
+rc num wa;
+rc num ii;
+rc num sa;
+rc str sb;
+rc num sc;
+rc str sd;
+rc num se;
+rc num ba;
+rc num bb;
+rc num bc;
+rc num ea;
+rc num re;
+rc num za;
+rc num zb;
+rc num zc;
+qa = 15;
+wb = 8;
+qb = 15;
+wa = 8;
+ii =10;
+zb = 70;
+zc = 71;
+re = 0 - 20;
+read("NEGATIVE ELEMENT");
+read(re);
+read("Result AND");
+ba = qa A wb;
+read(ba);
+read("Result OR");
+bb = qb O wa;
+read(bb);
+read("Result NOT");
+bc = N ii;
+read(bc);
+sd = "Hello";
+read("RESULT STRLN(HELLO)");
+ea = first(sd);
+read(ea);
+sb = "5";
+read("STRTON");
+sc = strton (sb);
+sc = sc + 5;
+read(sc);
+read("Result of CYCLE");
+cycle(7)
+{
+ea = ea + 6;
+};
+read(ea);
+za = second(zb,zc);
+read("RESULT FUNC SECOND");
+read(za);
+se = 0112;
+read("Program end.");
+}
+
